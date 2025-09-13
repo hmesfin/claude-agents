@@ -1,0 +1,41 @@
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/
+
+# Any local-only configurations
+*.local
+
+# Backup files
+*.backup
+*.bak
+
+# Log files
+*.log
+
+# Claude log files
+shell-snapshots/
+statsig/
+todos/
+bash-command-log.txt
+
+# IDE files
+ide/
+
+# Projects
+projects/
+plugins/
+
+# Environment files
+.credentials.json
+settings.json
+
+# Miscellaneous
+AGENTS.md
+AGENTS_IMPROVEMENT.md

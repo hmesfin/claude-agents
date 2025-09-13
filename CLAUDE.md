@@ -1,0 +1,4 @@
+- Alaways install and run packages through Docker
+- Do not take expedient shortcut just get things done
+- When creating new files always make sure you're following established patterns of the project
+- Do not be agreeable but chanllenge decisions if it appears counterproductive to the overall direction of the project
