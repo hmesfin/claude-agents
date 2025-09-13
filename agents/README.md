@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the enhanced and orchestrated agent ecosystem for Django/DRF backend with JWT authentication and Vue.js frontend with Pinia state management and Tailwind CSS.
+This is the enhanced and orchestrated agent ecosystem for Django/DRF backend with JWT authentication and Vue.js frontend with Pinia state management and Tailwind CSS. Now includes specialized legal document generators for production-ready privacy policies and terms of service.
 
 ## 🎯 Key Improvements
 
@@ -19,6 +19,8 @@ This is the enhanced and orchestrated agent ecosystem for Django/DRF backend wit
 - **`observability-engineer`**: Monitoring, debugging, and observability
 - **`realtime-architect`**: WebSocket and real-time features
 - **`async-task-architect`**: Background jobs and queue management
+- **`privacy-policy-generator`**: GDPR/CCPA compliant privacy policies
+- **`terms-of-service-generator`**: Legally enforceable terms of service
 
 ## 📂 Agent Directory
 
@@ -64,7 +66,25 @@ This is the enhanced and orchestrated agent ecosystem for Django/DRF backend wit
 |-------|---------|-------|
 | `django-vue-devops` | Deployment and infrastructure | sonnet |
 
+### 📜 Legal & Compliance
+
+| Agent | Purpose | Model |
+|-------|---------|-------|
+| `privacy-policy-generator` | Generate GDPR/CCPA compliant privacy policies | opus |
+| `terms-of-service-generator` | Generate enforceable terms of service | opus |
+
 ## 🔄 Workflow Examples
+
+### Legal Document Generation
+
+```mermaid
+graph LR
+    O[User Input] --> PP[privacy-policy-generator]
+    O --> TOS[terms-of-service-generator]
+    PP --> REVIEW[security-reviewer]
+    TOS --> REVIEW
+    REVIEW --> OUTPUT[Production-Ready Documents]
+```
 
 ### New Feature Development
 
